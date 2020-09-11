@@ -1,4 +1,16 @@
 {% load static %}
+<!-- Mensagens do sistema -->
+<div class="container" style="margin-top: 50px">
+    {% if messages %}
+    {% for m in messages %}
+    <div class="alert alert-{{ m.tags }}">
+        <button type="button" class="close" data-dismiss="alert"></button>
+        <strong>{{ m }}</strong>
+    </div>
+    {% endfor %}
+    {% endif %}
+</div>
+<!-- Fim das Mensagens -->
 <div id="hero-area" class="hero-area-bg">
     <div class="container">
         <div class="row">
