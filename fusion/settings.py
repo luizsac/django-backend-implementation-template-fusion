@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'hs%yg_%d@cfok9ys8kwx&n9%k$nh%^#x&t-5d21zmpi)q-mfg9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'fusion.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 # Banco de dados local
-
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -88,14 +88,12 @@ DATABASES = {
         'PORT': '5432'
     }
 }
-
+"""
 
 # Configuração para o Heroku
-"""
 DATABASES = {
     'default': dj_database_url.config()
 }
-"""
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -141,7 +139,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 # Emulador de servidor de emails
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
 # Local para redirecionar ao fazer Logout
