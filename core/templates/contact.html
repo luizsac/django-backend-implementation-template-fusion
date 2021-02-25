@@ -1,8 +1,9 @@
+{% load i18n %}
 {% load static %}
 <section id="contact" class="section-padding bg-gray">
     <div class="container">
         <div class="section-header text-center">
-            <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Entre em contato</h2>
+            <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">{% trans 'Entre em contato' %}</h2>
             <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
         </div>
         <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.3s">
@@ -13,29 +14,29 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required data-error="Entre com o seu nome">
+                                    <input type="text" class="form-control" id="nome" name="nome" placeholder="{% trans 'Nome' %}" required data-error="{% trans 'Entre com o seu nome' %}">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" placeholder="E-mail" id="email" class="form-control" name="email" required data-error="Entre com seu e-mail">
+                                    <input type="text" placeholder="E-mail" id="email" class="form-control" name="email" required data-error="{% trans 'Entre com seu e-mail' %}">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="text" placeholder="Assunto" id="assunto" name="assunto" class="form-control" required data-error="Entre com o assunto">
+                                    <input type="text" placeholder="Assunto" id="assunto" name="assunto" class="form-control" required data-error="{% trans 'Entre com o assunto' %}">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Mensagem" rows="7" data-error="Escreva sua mensagem" required></textarea>
+                                    <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Mensagem" rows="7" data-error="{% trans 'Escreva sua mensagem' %}" required></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="submit-button text-left">
-                                    <button class="btn btn-common" id="form-submit" type="submit">Enviar Mensagem</button>
+                                    <button class="btn btn-common" id="form-submit" type="submit">{% trans 'Enviar mensagem' %}</button>
                                     <div id="msgSubmit" class="h3 text-center hidden"></div>
                                     <div class="clearfix"></div>
                                 </div>

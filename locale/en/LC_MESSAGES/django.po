@@ -1,0 +1,332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-19 23:27-0300\n"
+"PO-Revision-Date: 2020-11-22 21:48-0300\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: .\core\forms.py:7 .\core\forms.py:18 .\core\models.py:83
+#: .\core\models.py:110 .\core\templates\contact.html:17
+msgid "Nome"
+msgstr "Name"
+
+#: .\core\forms.py:8
+msgid "E-mail"
+msgstr "E-mail"
+
+#: .\core\forms.py:9 .\core\forms.py:20
+msgid "Assunto"
+msgstr "Subject"
+
+#: .\core\forms.py:10 .\core\forms.py:21
+msgid "Mensagem"
+msgstr "Message"
+
+#: .\core\forms.py:19
+msgid "Email"
+msgstr "Email"
+
+#: .\core\models.py:41
+msgid "Criado"
+msgstr "Created"
+
+#: .\core\models.py:42
+msgid "Modificado"
+msgstr "Modified"
+
+#: .\core\models.py:43
+msgid "Ativo"
+msgstr "Active"
+
+#: .\core\models.py:51 .\core\models.py:103
+msgid "Engrenagem"
+msgstr "Cog"
+
+#: .\core\models.py:52
+msgid "Gráfico"
+msgstr "Graphic"
+
+#: .\core\models.py:53
+msgid "Usuários"
+msgstr "Users"
+
+#: .\core\models.py:54
+msgid "Design"
+msgstr "Design"
+
+#: .\core\models.py:55
+msgid "Mobile"
+msgstr "Mobile"
+
+#: .\core\models.py:56 .\core\models.py:104
+msgid "Foguete"
+msgstr "Rocket"
+
+#: .\core\models.py:59 .\core\models.py:64
+msgid "Serviço"
+msgstr "Service"
+
+#: .\core\models.py:60 .\core\models.py:111
+msgid "Descrição"
+msgstr "Description"
+
+#: .\core\models.py:61 .\core\models.py:112
+msgid "Ícone"
+msgstr "Icon"
+
+#: .\core\models.py:65 .\core\templates\base.html:49
+msgid "Serviços"
+msgstr "Services"
+
+#: .\core\models.py:72 .\core\models.py:75 .\core\models.py:84
+msgid "Cargo"
+msgstr "Occupation"
+
+#: .\core\models.py:76
+msgid "Cargos"
+msgstr "Occupations"
+
+#: .\core\models.py:85
+msgid "Bio"
+msgstr "Bio"
+
+#: .\core\models.py:86
+msgid "Imagem"
+msgstr "Image"
+
+#: .\core\models.py:94
+msgid "Funcionário"
+msgstr "Employee"
+
+#: .\core\models.py:95
+msgid "Funcionários"
+msgstr "Employees"
+
+#: .\core\models.py:105
+msgid "Responsivo"
+msgstr "Responsive"
+
+#: .\core\models.py:106
+msgid "Folha"
+msgstr "Leaf"
+
+#: .\core\models.py:107
+msgid "Camadas"
+msgstr "Layers"
+
+#: .\core\models.py:115
+msgid "Funcionalidade"
+msgstr "Functionality"
+
+#: .\core\models.py:116
+msgid "Funcionalidades"
+msgstr "Functionalities"
+
+#: .\core\templates\about.html:10
+msgid "Gerir Estatísticas"
+msgstr "Manage Statistics"
+
+#: .\core\templates\about.html:11
+msgid "Estatísticas detalhadas para sua Companhia"
+msgstr "Detailed statistics for your Company"
+
+#: .\core\templates\about.html:17 .\core\templates\hero.html:24
+msgid "Saiba mais"
+msgstr "Learn More"
+
+#: .\core\templates\base.html:44
+msgid "Início"
+msgstr "Home"
+
+#: .\core\templates\base.html:54
+msgid "Equipe"
+msgstr "Team"
+
+#: .\core\templates\base.html:59 .\core\templates\pricing.html:4
+msgid "Preços"
+msgstr "Princing"
+
+#: .\core\templates\base.html:64
+msgid "Depoimentos"
+msgstr "Testmonials"
+
+#: .\core\templates\base.html:69 .\core\templates\base.html:123
+msgid "Contato"
+msgstr "Contact"
+
+#: .\core\templates\base.html:92
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis "
+"tincidunt est, et euismod purus suscipit quis."
+msgstr ""
+
+#: .\core\templates\base.html:103
+msgid "Produtos"
+msgstr "Products"
+
+#: .\core\templates\base.html:105
+msgid "Rastreamento"
+msgstr "Tracking"
+
+#: .\core\templates\base.html:106
+msgid "Aplicação"
+msgstr "Application"
+
+#: .\core\templates\base.html:107
+msgid "Planejamento de Recursos"
+msgstr "Resources Management"
+
+#: .\core\templates\base.html:108
+msgid "Empreendimento"
+msgstr "Enterprise"
+
+#: .\core\templates\base.html:109
+msgid "Gestão de Pessoas"
+msgstr "Employee Management"
+
+#: .\core\templates\base.html:113
+msgid "Recursos"
+msgstr "Resources"
+
+#: .\core\templates\base.html:115
+msgid "Opções de Pagamento"
+msgstr "Payment Options"
+
+#: .\core\templates\base.html:116
+msgid "Tabela de Pagamento"
+msgstr "Fee Schedule"
+
+#: .\core\templates\base.html:117
+msgid "Começando"
+msgstr "Getting Started"
+
+#: .\core\templates\base.html:118
+msgid "Verificação de Identidade"
+msgstr "Identity Verification"
+
+#: .\core\templates\base.html:119
+msgid "Verificação de Cartão"
+msgstr "Card Verification"
+
+#: .\core\templates\base.html:144
+msgid "Todos os direitos reservados"
+msgstr "All Right Reserved"
+
+#: .\core\templates\call-to-action.html:7
+msgid "Adquira um teste grátis de 30 dias"
+msgstr "Get 30 days free trial"
+
+#: .\core\templates\call-to-action.html:12
+msgid "Registre-se já"
+msgstr "Register Now"
+
+#: .\core\templates\contact.html:6
+msgid "Entre em contato"
+msgstr "Contact Us"
+
+#: .\core\templates\contact.html:17
+msgid "Entre com o seu nome"
+msgstr "Enter your name"
+
+#: .\core\templates\contact.html:23
+msgid "Entre com seu e-mail"
+msgstr "Enter your email"
+
+#: .\core\templates\contact.html:29
+msgid "Entre com o assunto"
+msgstr "Enter the subject"
+
+#: .\core\templates\contact.html:35
+msgid "Escreva sua mensagem"
+msgstr "Write your message"
+
+#: .\core\templates\contact.html:39
+msgid "Enviar mensagem"
+msgstr "Send message"
+
+#: .\core\templates\features.html:6
+msgid "Funcionalidades Incríveis"
+msgstr "Awesome Features"
+
+#: .\core\templates\hero.html:20
+msgid "Aplicação, Negócios e SaaS"
+msgstr "App, Business and SaaS"
+
+#: .\core\templates\hero.html:20
+msgid "Template da Página de Destino"
+msgstr "Landing Page Template"
+
+#: .\core\templates\hero.html:23
+msgid "Baixar agora"
+msgstr "Download Now"
+
+#: .\core\templates\pricing.html:20
+msgid "usuário"
+msgstr "users"
+
+#: .\core\templates\pricing.html:21 .\core\templates\pricing.html:41
+msgid "armazenamento"
+msgstr "storage"
+
+#: .\core\templates\pricing.html:22
+msgid "Suporte por e-mail"
+msgstr "Email Support"
+
+#: .\core\templates\pricing.html:23 .\core\templates\pricing.html:43
+#: .\core\templates\pricing.html:63
+msgid "Atualizações vitalícias"
+msgstr "Lifetime updates"
+
+#: .\core\templates\pricing.html:25 .\core\templates\pricing.html:45
+#: .\core\templates\pricing.html:65
+msgid "Compre agora"
+msgstr "Buy Now"
+
+#: .\core\templates\pricing.html:40
+msgid "usuários"
+msgstr "users"
+
+#: .\core\templates\pricing.html:42
+msgid "Suporte prioritário por email"
+msgstr "Priority email support"
+
+#: .\core\templates\pricing.html:60
+msgid "Usuários ilimitados"
+msgstr "Unlimited users"
+
+#: .\core\templates\pricing.html:61
+msgid "Armazenamento ilimitado"
+msgstr "Unlimited storage"
+
+#: .\core\templates\pricing.html:62
+msgid "Suporte"
+msgstr "Support"
+
+#: .\core\templates\services.html:4
+msgid "Nossos serviços"
+msgstr "Our services"
+
+#: .\core\templates\team.html:5
+msgid "Conheça nossa equipe"
+msgstr "Meet our team"
+
+#: .\core\views.py:28
+msgid "E-mail enviado com sucesso!"
+msgstr "E-mail successfully sent!"
+
+#: .\core\views.py:33
+msgid "Erro ao enviar e-mail"
+msgstr "Error sending e-mail"
